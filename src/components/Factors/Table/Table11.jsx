@@ -1,16 +1,14 @@
 import React from "react";
 import Row from "../Row";
-import Column from "../Column";
 import RotateRow from "../RotateRow";
-
-const Table4 = () => {
+import Column from "../Column";
+const Table11 = () => {
   return (
     <>
-    
-    <div className="mt-[95px]">
-      <RotateRow>سرپرستی مستقیم</RotateRow>
-    </div>
-      <div className="mt-[-113px] mb-[110px]">
+      <div>
+        <RotateRow>سرپرستی غیر مستقیم</RotateRow>
+      </div>
+      <div className="mt-[-113px]  ">
         <Row type={1}>
           <Column>سطوح</Column>
           <Column>امتیاز هر نفر</Column>
@@ -48,11 +46,14 @@ const Table4 = () => {
           <Column>2</Column>
         </Row>
         <Row type={2}>
-          <Column size={4} h={1}> حداکثر امتیاز عامل :</Column>
+          <Column size={4} h={1}>
+            {" "}
+            حداکثر امتیاز عامل :
+          </Column>
           <Column h={1}>امتیاز مکتوب :</Column>
           <Column h={1}> امتیاز اعمال شده:</Column>
           <Column isActive={true} size={3} h={1}>
-            25
+            35
           </Column>
         </Row>
       </div>
@@ -60,4 +61,4 @@ const Table4 = () => {
   );
 };
 
-export default Table4;
+export default Table11;

@@ -1,68 +1,53 @@
-import React from 'react';
-
+import React from "react";
+import Row from "../Row";
+import Column from "../Column";
 const Table9 = () => {
-    return (
-      <>
-        <div className="flex  mb-1 ">
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px]text-[0.90rem]"></div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-        </div>
-        <div className="flex mb-1">
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[145px] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[145px] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[[145x] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[[145x] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[[145x] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-        </div>
-
-        <div className="flex mb-1">
-          <div className=" bg-[#bccce1] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            2 ساعت در روز
-          </div>
-          <div className=" bg-[#bccce1] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            2 ساعت در روز
-          </div>
-          <div className=" bg-[#bccce1] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            2 ساعت در روز
-          </div>
-          <div className=" bg-[#bccce1] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            2 ساعت در روز
-          </div>
-          <div className=" bg-[#bccce1] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            2 ساعت در روز
-          </div>
-        </div>
-        <div className="flex mb-1 ">
-          <div className=" bg-[#ecebe0] ml-[2px] w-[730px] mt-[1px] flex  items-center  justify-center">
-            امتیاز شغل:
-          </div>
-          <div className=" bg-[#2b6519] text-white ml-[2px] w-[185px] mt-[1px] flex  items-center  justify-center">
-            12
-          </div>
-        </div>
-      </>
-    );
+  return (
+    <>
+      <Row type={1}>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+      </Row>
+      <Row type={2}>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+      </Row>
+      <Row type={4}>
+        <Column>Lorem, ipsum dolor sit amet consectetur </Column>
+        <Column>Lorem, ipsum dolor sit amet consectetur </Column>
+        <Column>Lorem, ipsum dolor sit amet consectetur </Column>
+        <Column>Lorem, ipsum dolor sit amet consectetur </Column>
+        <Column>Lorem, ipsum dolor sit amet consectetur </Column>
+      </Row>
+      <Row>
+        <Column>امتیاز شغل </Column>
+        <Column isActive={true} size={1}>
+          80
+        </Column>
+      </Row>
+    </>
+  );
 };
 
 export default Table9;

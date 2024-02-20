@@ -4,7 +4,7 @@ import HeaderFactors from "../Factors/HeaderFactors";
 import ExplainFactor from "../Factors/ExplainFactor";
 import Table6 from "../Factors/Table/Table6";
 import Table7 from "../Factors/Table/Table7";
-
+import SpaceBetweenTables from "../Factors/SpaceBetweenTables";
 const Page3 = () => {
   return (
     <>
@@ -20,6 +20,7 @@ const Page3 = () => {
           آموزشی فرد در مدارس و دانشگاه ها بدست می آید."
         />
         <Table6 />
+        <SpaceBetweenTables/>
         <HeaderFactors
           numberFactors="عامل هفتم"
           titelFactors="تحصیلات"

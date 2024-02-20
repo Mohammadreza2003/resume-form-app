@@ -1,30 +1,29 @@
-import React from 'react';
-
+import React from "react";
+import Row from "../Row";
+import Column from "../Column";
 const Table1 = () => {
-    return (
-      <>
-        <div className=" flex ">
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">ابتدایی</div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">سیکل</div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">دیپلم</div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">فوق دیپلم</div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">لیسانس</div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">فوق لیسانس</div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[130px]">دکتری</div>
-        </div>
-        <div className=" flex mb-[100px]">
-          <div className=" bg-[#ecebe0] ml-[2px] w-[130px] mt-[1px]">60</div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[130px] mt-[1px]">80</div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[130px] mt-[1px]">100</div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[130px] mt-[1px]">120</div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[130px] mt-[1px]">140</div>
-          <div className=" bg-[#2b6519] ml-[2px] w-[130px] mt-[1px] text-white">
-            160
-          </div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[130px] mt-[1px] ">200</div>
-        </div>
-      </>
-    );
+  return (
+    <>
+      <Row type={1}>
+        <Column>ابتدایی</Column>
+        <Column>سیکل</Column>
+        <Column>دیپلم</Column>
+        <Column>فوق دیپلم</Column>
+        <Column>لیسانس</Column>
+        <Column>فوق لیسانس</Column>
+        <Column>دکتری</Column>
+      </Row>
+      <Row>
+        <Column>60</Column>
+        <Column>80</Column>
+        <Column>100</Column>
+        <Column>100 </Column>
+        <Column>120</Column>
+        <Column> 140</Column>
+        <Column isActive={true}>160</Column>
+      </Row>
+    </>
+  );
 };
 
 export default Table1;

@@ -2,7 +2,6 @@ import Page from "../Page";
 import React from "react";
 import HeaderFactors from "../Factors/HeaderFactors";
 import ExplainFactor from "../Factors/ExplainFactor";
-
 import Table7 from "../Factors/Table/Table7";
 const Page4 = () => {
   return (

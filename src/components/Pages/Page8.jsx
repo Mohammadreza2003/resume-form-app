@@ -2,7 +2,7 @@ import Page from "../Page";
 import React from "react";
 import HeaderFactors from "../Factors/HeaderFactors";
 import ExplainFactor from "../Factors/ExplainFactor";
-
+import SpaceBetweenTables from "../Factors/SpaceBetweenTables";
 import Table8 from "../Factors/Table/Table8";
 import Table9 from "../Factors/Table/Table9";
 const Page8 = () => {
@@ -20,6 +20,7 @@ const Page8 = () => {
           آموزشی فرد در مدارس و دانشگاه ها بدست می آید."
         />
         <Table8 />
+        <SpaceBetweenTables/>
         <HeaderFactors
           numberFactors="عامل هفدهم"
           titelFactors="تحصیلات"

@@ -2,7 +2,7 @@ import Page from "../Page";
 import React from "react";
 import HeaderFactors from "../Factors/HeaderFactors";
 import ExplainFactor from "../Factors/ExplainFactor";
-
+import SpaceBetweenTables from "../Factors/SpaceBetweenTables";
 import Table10 from "../Factors/Table/Table10";
 const Page9 = () => {
   return (
@@ -41,6 +41,7 @@ const Page9 = () => {
           score5="100"
           scoreWoork="25"
         />
+        <SpaceBetweenTables />
         <HeaderFactors
           numberFactors="عامل نوزدهم"
           titelFactors="تحصیلات"
@@ -51,6 +52,7 @@ const Page9 = () => {
           text="مجموعه معلومات لازم جهت تصدی و انجام وظایف هر شغل که از طریق دوره های
           آموزشی فرد در مدارس و دانشگاه ها بدست می آید."
         />
+
         <Table10
           tableTitle1="سطح 1"
           tableTitle2="سطح 1"

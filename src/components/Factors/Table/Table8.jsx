@@ -1,77 +1,54 @@
-import React from 'react';
-
+import React from "react";
+import Row from "../Row";
+import Column from "../Column";
 const Table8 = () => {
-    return (
-      <>
-        <div className="flex  mb-1 ">
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px]text-[0.90rem]"></div>
-          <div className=" bg-[#d7d7d7] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            سطح 1
-          </div>
-        </div>
-        <div className="flex mb-1">
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[145px] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[145px] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[[145x] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[[145x] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-          <div className=" bg-[#f6d5b6] ml-[2px] w-[185px] flex  items-center justify-center h-[[145x] text-[0.90rem]">
-            میزان خسارت و ضایعه وارده احتمالی
-          </div>
-        </div>
-
-        <div className="flex mb-1">
-          <div className=" bg-[#9ecbdb] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            زیاد
-          </div>
-          <div className=" bg-[#9ecbdb] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            زیاد
-          </div>
-          <div className=" bg-[#9ecbdb] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            زیاد
-          </div>
-          <div className=" bg-[#9ecbdb] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            زیاد
-          </div>
-          <div className=" bg-[#9ecbdb] ml-[2px] w-[185px] flex  items-center justify-center h-[30px] text-[0.90rem]">
-            زیاد
-          </div>
-        </div>
-        <div className="flex mb-[100px] ">
-          <div className=" bg-[#ecebe0] ml-[2px] w-[185px] mt-[1px] flex  items-center  justify-center">
-            25
-          </div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[185px] mt-[1px] flex  items-center  justify-center">
-            50
-          </div>
-          <div className=" bg-[#ecebe0] ml-[2px] w-[185px] mt-[1px] flex  items-center  justify-center">
-            75
-          </div>
-          <div className="bg-[#2b6519] text-white  ml-[2px] w-[185px] mt-[1px] flex  items-center  justify-center justify-center">
-            100
-          </div>
-          <div className="bg-[#ecebe0]  ml-[2px] w-[185px] mt-[1px] flex  items-center  justify-center">
-            120
-          </div>
-        </div>
-      </>
-    );
+  return (
+    <>
+      <Row type={1}>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+        <Column>سطح 1</Column>
+      </Row>
+      <Row type={2}>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+        <Column>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+          voluptas in enim quis? Non, sequi es
+        </Column>
+      </Row>
+      <Row type={3}>
+        <Column>زیاد</Column>
+        <Column>زیاد</Column>
+        <Column>زیاد</Column>
+        <Column>زیاد</Column>
+        <Column>زیاد</Column>
+      </Row>
+      <Row>
+        <Column>10</Column>
+        <Column>30</Column>
+        <Column>40</Column>
+        <Column isActive={true}> 50</Column>
+        <Column>80</Column>
+      </Row>
+    </>
+  );
 };
 
 export default Table8;
