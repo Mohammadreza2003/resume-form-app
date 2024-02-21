@@ -2,7 +2,10 @@ import Page from "../Page";
 import React from "react";
 import HeaderFactors from "../Factors/HeaderFactors";
 import ExplainFactor from "../Factors/ExplainFactor";
-import Table7 from "../Factors/Table/Table7";
+import Table14 from "../Factors/Table/Table14";
+import Table15 from "../Factors/Table/Table15";
+import SpaceBetweenTables from "../Factors/SpaceBetweenTables";
+
 const Page5 = () => {
   return (
     <>
@@ -17,23 +20,8 @@ const Page5 = () => {
           text="مجموعه معلومات لازم جهت تصدی و انجام وظایف هر شغل که از طریق دوره های
           آموزشی فرد در مدارس و دانشگاه ها بدست می آید."
         />
-        <Table7
-          tableTitle1="سطح 1"
-          tableTitle2="سطح 1"
-          tableTitle3="سطح 1"
-          tableTitle4="سطح 1"
-          tableTitle5="سطح 1"
-          tableValue1="انجام وظایف هر شغل"
-          tableValue2="انجام وظایف هر شغل"
-          tableValue3="انجام وظایف هر شغل"
-          tableValue4="انجام وظایف هر شغل"
-          tableValue5="انجام وظایف هر شغل"
-          tableValueScore1="80"
-          tableValueScore2="90"
-          tableValueScore3="100"
-          tableValueScore4="150"
-          tableValueScore5="200"
-        />
+        <Table14 />
+        <SpaceBetweenTables />
         <HeaderFactors
           numberFactors="عامل یازدهم"
           titelFactors="تحصیلات"
@@ -44,23 +32,7 @@ const Page5 = () => {
           text="مجموعه معلومات لازم جهت تصدی و انجام وظایف هر شغل که از طریق دوره های
           آموزشی فرد در مدارس و دانشگاه ها بدست می آید."
         />
-        <Table7
-          tableTitle1="سطح 1"
-          tableTitle2="سطح 1"
-          tableTitle3="سطح 1"
-          tableTitle4="سطح 1"
-          tableTitle5="سطح 1"
-          tableValue1="انجام وظایف هر شغل"
-          tableValue2="انجام وظایف هر شغل"
-          tableValue3="انجام وظایف هر شغل"
-          tableValue4="انجام وظایف هر شغل"
-          tableValue5="انجام وظایف هر شغل"
-          tableValueScore1="80"
-          tableValueScore2="90"
-          tableValueScore3="100"
-          tableValueScore4="150"
-          tableValueScore5="200"
-        />
+        <Table15 />
       </Page>
     </>
   );

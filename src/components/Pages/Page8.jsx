@@ -20,7 +20,7 @@ const Page8 = () => {
           آموزشی فرد در مدارس و دانشگاه ها بدست می آید."
         />
         <Table8 />
-        <SpaceBetweenTables/>
+        <SpaceBetweenTables />
         <HeaderFactors
           numberFactors="عامل هفدهم"
           titelFactors="تحصیلات"

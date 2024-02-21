@@ -6,10 +6,9 @@ import RotateRow from "../RotateRow";
 const Table4 = () => {
   return (
     <>
-    
-    <div className="mt-[95px]">
-      <RotateRow>سرپرستی مستقیم</RotateRow>
-    </div>
+      <div className="mt-[95px]">
+        <RotateRow>سرپرستی مستقیم</RotateRow>
+      </div>
       <div className="mt-[-113px] mb-[110px]">
         <Row type={1}>
           <Column>سطوح</Column>
@@ -48,7 +47,10 @@ const Table4 = () => {
           <Column>2</Column>
         </Row>
         <Row type={2}>
-          <Column size={4} h={1}> حداکثر امتیاز عامل :</Column>
+          <Column size={4} h={1}>
+            {" "}
+            حداکثر امتیاز عامل :
+          </Column>
           <Column h={1}>امتیاز مکتوب :</Column>
           <Column h={1}> امتیاز اعمال شده:</Column>
           <Column isActive={true} size={3} h={1}>

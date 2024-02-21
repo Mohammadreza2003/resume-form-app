@@ -45,8 +45,7 @@ h1 {
   }
 }
 
-tbody::before
-{
+tbody::before {
   content: '';
   display: block;
   height: 15px;

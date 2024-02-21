@@ -47,7 +47,6 @@ const Table11 = () => {
         </Row>
         <Row type={2}>
           <Column size={4} h={1}>
-            {" "}
             حداکثر امتیاز عامل :
           </Column>
           <Column h={1}>امتیاز مکتوب :</Column>

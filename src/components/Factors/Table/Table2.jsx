@@ -1,16 +1,25 @@
 import React from "react";
 import Row from "../Row";
 import Column from "../Column";
-const Table2 = (
- ) => {
+const Table2 = () => {
   return (
     <>
       <Row type={1}>
-        <Column>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </Column>
-        <Column>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </Column>
-        <Column>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </Column>
-        <Column>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </Column> 
-        <Column>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </Column>
+        <Column>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.{" "}
+        </Column>
+        <Column>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.{" "}
+        </Column>
+        <Column>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.{" "}
+        </Column>
+        <Column>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.{" "}
+        </Column>
+        <Column>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.{" "}
+        </Column>
       </Row>
       <Row>
         <Column>100</Column>

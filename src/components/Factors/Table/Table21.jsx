@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "../Row";
 import Column from "../Column";
-const Table10 = () => {
+const Table21 = () => {
   return (
     <>
       <Row type={1}>
@@ -34,9 +34,9 @@ const Table10 = () => {
         </Column>
       </Row>
       <Row type={3}>
-        <Column>کم </Column>
-        <Column>- </Column>
-        <Column>- </Column>
+        <Column>3ساعت</Column>
+        <Column>3ساعت</Column>
+        <Column>3ساعت</Column>
         <Column>- </Column>
         <Column>- </Column>
       </Row>
@@ -50,4 +50,4 @@ const Table10 = () => {
   );
 };
 
-export default Table10;
+export default Table21;

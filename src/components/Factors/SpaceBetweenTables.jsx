@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const SpaceBetweenTables = () => {
-    return (
-        <div className="mt-[50px] mb-[50px]">
-            
-        </div>
-    );
+  return <div className="mt-[50px] mb-[50px]"></div>;
 };
 
 export default SpaceBetweenTables;

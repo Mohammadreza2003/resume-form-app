@@ -10,7 +10,6 @@ import Page8 from "./components/Pages/Page8";
 import Page9 from "./components/Pages/Page9";
 import Page10 from "./components/Pages/Page10";
 
-
 function App() {
   return (
     <>
